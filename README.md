@@ -2,7 +2,7 @@
 
 _Purpose_
 -----------------------------------------------------------------------------------------------------------------
-I created this project to learn and have a better understanding of earthquakes. Learning to calculate the Richter Scale is a great way to not only know how to implement this calculation into a project, but also to be able to find the necessary data needed to measure the severity of an earthquake. This will also help me to improve my problem solving skills to incorporate real world equations and problems into C++.
+I created this project to learn and have a better understanding of earthquakes. Personally I really love programming! Also I like learning new concepts that can help to better my skills as a developer. Learning to calculate the Richter Scale is a great way to not only know how to implement this calculation into a project, but also to be able to find the necessary data needed to measure the severity of an earthquake. This will also help me to improve my problem solving skills to incorporate real world equations and problems into C++.
 
 _Study Resources_
 -----------------------------------------------------------------------------------------------------------------
@@ -29,8 +29,22 @@ M = Magnitude
 I = base intensity
 Io = arbitrary zero of the intensity
 ```
+
 -----------------------------------------------------------------------------------------------------------------
-# Problem #1 How to calculate the difference in intensity between two earthquakes???
+How to calculate the energy of an earthquakes???
+-----------------------------------------------------------------------------------------------------------------
+_ENERGY EQUATION_
+
+``` log(I1/I2) = M1 - M2 ```
+```
+M1 = Magnitude #1 , M2 = Magnitude #2
+I1 = Intensity #1 , I2 = Intensity #2
+```
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+How to calculate the difference in intensity between two earthquakes???
 -----------------------------------------------------------------------------------------------------------------
 _INTENSITY BETWEEN 2 MAGNITUDES EQUATION_
 
