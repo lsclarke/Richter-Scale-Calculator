@@ -41,3 +41,8 @@ log(I1/I2) = M1 - M2
 M1 = Magnitude #1 , M2 = Magnitude #2
 I1 = Intensity #1 , I2 = Intensity #2
 ```
+First create a function dedicated to calculating the difference in intensity between the two earthquakes
+```double CalculateIntensityDifference(Earthquake* quake1, Earthquake* quake2);```
+
+
+
