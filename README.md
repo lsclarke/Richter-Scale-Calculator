@@ -8,6 +8,7 @@ _Study Resources_
 -----------------------------------------------------------------------------------------------------------------
 [https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity](https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity)
 
+_Calculate Richter Scale_
 https://www.youtube.com/watch?v=P7cDoqAspQk
 
 _Richter scale | Logarithms | Algebra II | Khan Academy_
