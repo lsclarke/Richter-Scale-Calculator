@@ -18,7 +18,7 @@ https://youtu.be/RFn-IGlayAg
 _Common Logarithms_
 https://www.colonialsd.org/uploaded/Forms_and_Documents/Curriculum/Math/Integrated_Math/Blue_Unit_3/Common_Logarithms.pdf
 
-_Calculate Intensity_
+_Calculate Intensity on Ricther Scale_
 https://youtu.be/Axc8dS4P4iM
 
 _MAGNITUDE EQUATION_
