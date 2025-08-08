@@ -46,7 +46,7 @@ M = Magnitude
 
 ```double CalculateEnergy(Earthquake* quake);```
 
--Then set your intensity variable to equal the energy equation above and return the output!
+- Then set your intensity variable to equal the energy equation above and return the output!
 
 ```energy = 10^.4* 10^4 + 1*5M```
 
