@@ -19,4 +19,5 @@ _Common Logarithms_
 https://www.colonialsd.org/uploaded/Forms_and_Documents/Curriculum/Math/Integrated_Math/Blue_Unit_3/Common_Logarithms.pdf
 
 _MAGNITUDE EQUATION_
+
 ```M = log10(A/Ao)```
