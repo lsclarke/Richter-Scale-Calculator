@@ -30,7 +30,7 @@ I = base intensity
 Io = arbitrary zero of the intensity
 ```
 
-# Problem #1! How to calculate the difference in intensity between two earthquakes???
+# Problem #1 How to calculate the difference in intensity between two earthquakes???
 
 _INTENSITY BETWEEN 2 MAGNITUDES EQUATION_
 
