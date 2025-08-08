@@ -10,4 +10,5 @@ _Study Resources_
 
 https://www.youtube.com/watch?v=P7cDoqAspQk
 
+_Richter scale | Logarithms | Algebra II | Khan Academy_
 https://youtu.be/RFn-IGlayAg
