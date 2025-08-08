@@ -18,6 +18,9 @@ https://youtu.be/RFn-IGlayAg
 _Common Logarithms_
 https://www.colonialsd.org/uploaded/Forms_and_Documents/Curriculum/Math/Integrated_Math/Blue_Unit_3/Common_Logarithms.pdf
 
+_Calculate Intensity_
+https://youtu.be/Axc8dS4P4iM
+
 _MAGNITUDE EQUATION_
 
 ``` M = log10(I/Io) ```
@@ -26,8 +29,15 @@ M = Magnitude
 I = base intensity
 Io = arbitrary zero of the intensity
 ```
-```
-# Problem #1! How to calculate the intensity betwen two earthquakes???
-```
 
-https://youtu.be/Axc8dS4P4iM
+# Problem #1! How to calculate the intensity betwen two earthquakes???
+
+_INTENSITY BETWEEN 2 MAGNITUDES EQUATION_
+
+```
+log(I1/I2) = M1 - M2
+```
+```
+M1 = Magnitude #1 , M2 = Magnitude #2
+I1 = Intensity #1 , I2 = Intensity #2
+```
