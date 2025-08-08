@@ -35,13 +35,20 @@ How to calculate the energy of an earthquakes???
 -----------------------------------------------------------------------------------------------------------------
 _ENERGY EQUATION_
 
-``` log(I1/I2) = M1 - M2 ```
+``` logE = 10^.4* 10^4 + 1*5M ```
 ```
-M1 = Magnitude #1 , M2 = Magnitude #2
-I1 = Intensity #1 , I2 = Intensity #2
+E = Energy
+M = Magnitude 
 ```
 
+- First create a function dedicated to calculating the energy of earthquakes.
+- make sure it returns a double or float value!
 
+```double CalculateEnergy(Earthquake* quake);```
+
+-Then set your intensity variable to equal the energy equation above and return the output!
+
+```energy = 10^.4* 10^4 + 1*5M```
 
 -----------------------------------------------------------------------------------------------------------------
 How to calculate the difference in intensity between two earthquakes???
