@@ -55,3 +55,7 @@ I1 = Intensity #1 , I2 = Intensity #2
 
 ```double diffIntensity = round(pow(10, magnitude_Difference));```
 
+- Then set the intensity for both earthquakes to equal to output of 
+
+```(diffIntensity / 2)```
+
