@@ -26,3 +26,8 @@ M = Magnitude
 I = base intensity
 Io = arbitrary zero of the intensity
 ```
+```
+# Problem #1! How to calculate the intensity betwen two earthquakes???
+```
+
+https://youtu.be/Axc8dS4P4iM
