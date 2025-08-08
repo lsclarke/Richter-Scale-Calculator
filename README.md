@@ -50,7 +50,7 @@ I1 = Intensity #1 , I2 = Intensity #2
 
 ```double magnitude_Difference = (quake1->magnitude - quake2->magnitude);```
 
-- Create a variable that stores the difference in intensity, the equation for this is: ```log0.6 = (I1/I2)```, make sure to also round up the value to finalize it.
+- Create a variable that stores the difference in intensity, the equation for this is: ```log0.6 = (I1/I2) or 10^0.6 = (I1/I2)``` this will equal = ```3.98```, so make sure to also round up the value to finalize it.
 
 ```double magnitude_Difference = (quake1->magnitude - quake2->magnitude);```
 
