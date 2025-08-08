@@ -42,12 +42,15 @@ M1 = Magnitude #1 , M2 = Magnitude #2
 I1 = Intensity #1 , I2 = Intensity #2
 ```
 
-- First create a function dedicated to calculating the difference in intensity between the two earthquakes
+- First create a function dedicated to calculating the difference in intensity between the two earthquakes.
 
 ```double CalculateIntensityDifference(Earthquake* quake1, Earthquake* quake2);```
 
-- Second create a variable that stores the difference between M1 and M2
+- Second create a variable that stores the difference between M1 and M2.
 
 ```double magnitude_Difference = (quake1->magnitude - quake2->magnitude);```
 
+- Create a variable that stores the difference in intensity, the equation for this is: ```log0.6 = (I1/I2)```, make sure to also round up the value to finalize it.
+
+```double magnitude_Difference = (quake1->magnitude - quake2->magnitude);```
 
