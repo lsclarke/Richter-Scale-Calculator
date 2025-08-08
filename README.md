@@ -59,3 +59,9 @@ I1 = Intensity #1 , I2 = Intensity #2
 
 ```(diffIntensity / 2)```
 
+- Lastly you’ll return the ```diffIntensity``` and check if the magnitude of earthquake 1 is greater than earthquake 2. If that is the case your output will look like this:
+
+```std::cout <<"Earthquake #1 Intensity:: " << quake1->magnitude << " was approximately " << diffIntensity << " times stronger than Earthquake #2 Intensity:: " << quake2->magnitude << std::endl;
+``` 
+
+
