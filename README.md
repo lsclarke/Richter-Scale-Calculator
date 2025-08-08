@@ -23,6 +23,6 @@ _MAGNITUDE EQUATION_
 ``` M = log10(A/Ao) ```
 ```
 M = Magnitude
-A = Maximum excursion of the Wood-Anderson seismograph
-Ao = arbitrary zero of the scale, a standard amplitude as recorded on a Wood-Anderson seismograph at a distance of 100 km
+I = base intensity
+Io = arbitrary zero of the intensity
 ```
