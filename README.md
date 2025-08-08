@@ -14,3 +14,9 @@ https://www.youtube.com/watch?v=P7cDoqAspQk
 
 _Richter scale | Logarithms | Algebra II | Khan Academy_:
 https://youtu.be/RFn-IGlayAg
+
+_Common Logarithms_
+https://www.colonialsd.org/uploaded/Forms_and_Documents/Curriculum/Math/Integrated_Math/Blue_Unit_3/Common_Logarithms.pdf
+
+_MAGNITUDE EQUATION_
+```M = log10(A/Ao)```
