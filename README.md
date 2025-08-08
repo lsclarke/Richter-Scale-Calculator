@@ -20,7 +20,7 @@ https://www.colonialsd.org/uploaded/Forms_and_Documents/Curriculum/Math/Integrat
 
 _MAGNITUDE EQUATION_
 
-``` M = log10(A/Ao) ```
+``` M = log10(I/Io) ```
 ```
 M = Magnitude
 I = base intensity
