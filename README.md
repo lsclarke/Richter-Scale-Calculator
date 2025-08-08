@@ -34,9 +34,7 @@ Io = arbitrary zero of the intensity
 -----------------------------------------------------------------------------------------------------------------
 _INTENSITY BETWEEN 2 MAGNITUDES EQUATION_
 
-```
-log(I1/I2) = M1 - M2
-```
+``` log(I1/I2) = M1 - M2 ```
 ```
 M1 = Magnitude #1 , M2 = Magnitude #2
 I1 = Intensity #1 , I2 = Intensity #2
