@@ -116,3 +116,4 @@ int main()
 
 _OUTPUT:_
 
+<img width="1108" height="148" alt="image" src="https://github.com/user-attachments/assets/0f942a0e-6eb1-4f59-bcde-82697ef1c811" />
