@@ -82,4 +82,36 @@ I1 = Intensity #1 , I2 = Intensity #2
 
 ```std::cout <<"Earthquake #1 Intensity:: " << quake1->magnitude << " was approximately " << diffIntensity << " times stronger than Earthquake #2 Intensity:: " << quake2->magnitude << std::endl;``` 
 
+-----------------------------------------------------------------------------------------------------------------
+Program Overview
+-----------------------------------------------------------------------------------------------------------------
+
+_MAIN METHOD:_
+``` int main()
+{
+    //Earthquake Class Instance Objects
+    Earthquake* quake1 = new Earthquake(9.3);
+    Earthquake* quake2 = new Earthquake(8.7);
+
+    Earthquake* quake3 = new Earthquake(9);
+    Earthquake* quake4 = new Earthquake(6.7);
+
+    Earthquake* quakeEnergy = new Earthquake(9.3);
+
+    //Ricther Class Instance Object
+    RichterCalculator* scale = new RichterCalculator;
+
+    //Calculate the intensity difference
+    scale->CalculateIntensityDifference(quake1, quake2);
+    scale->CalculateIntensityDifference(quake3, quake4);
+
+    //String output of energy from earthquake 3
+    std::cout <<  "Energy Output:: " << scale->CalculateEnergy(quake3) << std::endl;
+
+    std::cin.get();
+    return 0;
+} ```
+
+
+_OUTPUT:_
 
