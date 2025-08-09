@@ -87,7 +87,8 @@ Program Overview
 -----------------------------------------------------------------------------------------------------------------
 
 _MAIN METHOD:_
-``` int main()
+```
+int main()
 {
     //Earthquake Class Instance Objects
     Earthquake* quake1 = new Earthquake(9.3);
@@ -110,8 +111,8 @@ _MAIN METHOD:_
 
     std::cin.get();
     return 0;
-} ```
-
+}
+```
 
 _OUTPUT:_
 
