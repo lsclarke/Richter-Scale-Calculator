@@ -6,13 +6,22 @@
 #include <cmath>
 
 class Earthquake {
-public:
-    Earthquake(double value) { magnitude = value;}
 
+private:
+    int _id;
+    int nextID = 0;
+public:
+    Earthquake(double value) 
+    { 
+        _id = ++nextID;
+        magnitude = value; 
+    }
+
+    int returnID(){ return _id; }
     double magnitude{};
     double intensity{};
     double energy{};
-    Earthquake* quake;
+
 };
 
 class RichterCalculator {
@@ -68,7 +77,7 @@ int main()
     scale->CalculateIntensityDifference(quake3, quake4);
 
     //String output of energy from earthquake 3
-    std::cout <<  "Energy Output:: " << scale->CalculateEnergy(quake3) << std::endl;
+    std::cout <<  "Earthquake ID#" << quake3->returnID() << " Energy Output:: " << scale->CalculateEnergy(quake3) << std::endl;
 
     std::cin.get();
     return 0;
