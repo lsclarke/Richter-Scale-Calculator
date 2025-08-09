@@ -1,4 +1,4 @@
-# Ricther-Scale-Calculator
+# Richter-Scale-Calculator
 
 _Purpose_
 -----------------------------------------------------------------------------------------------------------------
@@ -18,7 +18,7 @@ https://youtu.be/RFn-IGlayAg
 _Common Logarithms_
 https://www.colonialsd.org/uploaded/Forms_and_Documents/Curriculum/Math/Integrated_Math/Blue_Unit_3/Common_Logarithms.pdf
 
-_Calculate Intensity on Ricther Scale_
+_Calculate Intensity on Richter Scale_
 https://youtu.be/Axc8dS4P4iM
 
 _MAGNITUDE EQUATION_
@@ -99,7 +99,7 @@ int main()
 
     Earthquake* quakeEnergy = new Earthquake(9.3);
 
-    //Ricther Class Instance Object
+    //Richter Class Instance Object
     RichterCalculator* scale = new RichterCalculator;
 
     //Calculate the intensity difference
