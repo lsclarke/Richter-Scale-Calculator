@@ -51,7 +51,7 @@ public:
 
 int main()
 {
-    //Earthquake Class nstance Objects
+    //Earthquake Class Instance Objects
     Earthquake* quake1 = new Earthquake(9.3);
     Earthquake* quake2 = new Earthquake(8.7);
 
