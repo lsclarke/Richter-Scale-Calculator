@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d6276f87-2ede-4c24-8bb1-e4a522bf1716}</ProjectGuid>
+    <ProjectGuid>{e0d435b0-c464-4708-834f-0016546b0e89}</ProjectGuid>
     <RootNamespace>CalculateRichterScale</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
