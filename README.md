@@ -2,7 +2,7 @@
 
 _Purpose_
 -----------------------------------------------------------------------------------------------------------------
-I created this project to learn and have a better understanding of earthquakes. Personally I really love programming! Also I like learning new concepts that can help to better my skills as a developer. Learning to calculate the Richter Scale is a great way to not only know how to implement this calculation into a project, but also to be able to find the necessary data needed to measure the severity of an earthquake. This will also help me to improve my problem solving skills to incorporate real world equations and problems into the **C++ programming language**.
+I created this project to learn and have a better understanding of earthquakes. Personally I really love programming! Also I like learning new concepts that can help to better my skills as a developer. Learning to calculate the Richter Scale is a great way to not only know how to implement this calculation into a project, but also to be able to find the necessary data needed to measure the severity of an earthquake. This will also help me to improve my problem solving skills to incorporate real world equations and problems into the **_C++ programming language_**.
 
 _Study Resources_
 -----------------------------------------------------------------------------------------------------------------
