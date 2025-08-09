@@ -11,13 +11,13 @@ private:
     int _id;
     int nextID = 0;
 public:
-    Earthquake(double value) 
-    { 
+    Earthquake(double value)
+    {
         _id = ++nextID;
-        magnitude = value; 
+        magnitude = value;
     }
 
-    int returnID(){ return _id; }
+    int returnID() { return _id; }
     double magnitude{};
     double intensity{};
     double energy{};
@@ -48,12 +48,12 @@ public:
 
         quake1->intensity = quake2->intensity = diffIntensity / 2;
 
-        if(quake1->magnitude > quake2->magnitude)
-            std::cout <<"Earthquake #1 Intensity:: " << quake1->magnitude << " was approximately " << diffIntensity << " times stronger than Earthquake #2 Intensity:: " << quake2->magnitude << std::endl;
+        if (quake1->magnitude > quake2->magnitude)
+            std::cout << "Earthquake #1 Intensity:: " << quake1->magnitude << " was approximately " << diffIntensity << " times stronger than Earthquake #2 Intensity:: " << quake2->magnitude << std::endl;
 
         if (quake1->magnitude < quake2->magnitude)
             std::cout << "Earthquake #2 Intensity:: " << quake2->magnitude << " was approximately " << diffIntensity << " times stronger than Earthquake #1 Intensity:: " << quake1->magnitude << std::endl;
- 
+
         return diffIntensity;
     }
 };
@@ -77,7 +77,7 @@ int main()
     scale->CalculateIntensityDifference(quake3, quake4);
 
     //String output of energy from earthquake 3
-    std::cout <<  "Earthquake ID#" << quake3->returnID() << " Energy Output:: " << scale->CalculateEnergy(quake3) << std::endl;
+    std::cout << "Earthquake ID#" << quake3->returnID() << " Energy Output:: " << scale->CalculateEnergy(quake3) << std::endl;
 
     std::cin.get();
     return 0;
