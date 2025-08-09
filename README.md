@@ -90,7 +90,6 @@ _MAIN METHOD:_
 ```
 int main()
 {
-    //Earthquake Class Instance Objects
     Earthquake* quake1 = new Earthquake(9.3);
     Earthquake* quake2 = new Earthquake(8.7);
 
@@ -99,15 +98,10 @@ int main()
 
     Earthquake* quakeEnergy = new Earthquake(9.3);
 
-    //Richter Class Instance Object
-    RichterCalculator* scale = new RichterCalculator;
+    rsc::CalculateIntensityDifference(quake1, quake2);
+    rsc::CalculateIntensityDifference(quake3, quake4);
 
-    //Calculate the intensity difference
-    scale->CalculateIntensityDifference(quake1, quake2);
-    scale->CalculateIntensityDifference(quake3, quake4);
-
-    //String output of energy from earthquake 3
-    std::cout <<  "Energy Output:: " << scale->CalculateEnergy(quake3) << std::endl;
+    std::cout << "Energy Output:: " << rsc::CalculateEnergy(quake3) << std::endl;
 
     std::cin.get();
     return 0;
