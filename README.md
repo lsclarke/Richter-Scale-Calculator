@@ -88,15 +88,17 @@ Program Overview
 
 _MAIN METHOD:_
 ```
-int main()
+int main
 {
-    Earthquake* quake1 = new Earthquake(9.3);
-    Earthquake* quake2 = new Earthquake(8.7);
+    //Smart Pointers 
+    std::unique_ptr<Earthquake> quake1 { new Earthquake(9.3) };
+    std::unique_ptr<Earthquake> quake2{ new Earthquake(8.7) };
 
-    Earthquake* quake3 = new Earthquake(9);
-    Earthquake* quake4 = new Earthquake(6.7);
+    std::unique_ptr<Earthquake> quake3{ new Earthquake(9) };
+    std::unique_ptr<Earthquake> quake4{ new Earthquake(6.7) };
 
-    Earthquake* quakeEnergy = new Earthquake(9.3);
+    std::unique_ptr<Earthquake> quakeEnergy{ new Earthquake(9.3) };
+
 
     rsc::CalculateIntensityDifference(quake1, quake2);
     rsc::CalculateIntensityDifference(quake3, quake4);
