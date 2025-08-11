@@ -1,9 +1,8 @@
 // CalculateRichterScale.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
-#include <vector>
-#include <algorithm>
 #include <cmath>
+#include <memory>
 
 class Earthquake {
 public:
@@ -20,7 +19,7 @@ namespace rsc {
     /// <summary>
     /// Responsible for calculating the magnitude of earthquakes!
     /// </summary>
-    double CalculateEnergy(Earthquake* quake) {
+    double CalculateEnergy(std::unique_ptr<Earthquake>& quake) {
         quake->energy = (2.5 * pow(10, 4)) * pow(10, (1.5 * quake->magnitude));
         return quake->energy;
     }
@@ -28,7 +27,7 @@ namespace rsc {
     /// <summary>
     /// Responsible for calculating the difference in intensity between two earthquakes!
     /// </summary>
-    double CalculateIntensityDifference(Earthquake* quake1, Earthquake* quake2) {
+    double CalculateIntensityDifference(std::unique_ptr<Earthquake>& quake1, std::unique_ptr<Earthquake>& quake2) {
 
         double magnitude_Difference = (quake1->magnitude - quake2->magnitude);
         double diffIntensity = round(pow(10, magnitude_Difference));
@@ -46,13 +45,15 @@ namespace rsc {
 
 int main()
 {
-    Earthquake* quake1 = new Earthquake(9.3);
-    Earthquake* quake2 = new Earthquake(8.7);
+    //Smart Pointers 
+    std::unique_ptr<Earthquake> quake1 { new Earthquake(9.3) };
+    std::unique_ptr<Earthquake> quake2{ new Earthquake(8.7) };
 
-    Earthquake* quake3 = new Earthquake(9);
-    Earthquake* quake4 = new Earthquake(6.7);
+    std::unique_ptr<Earthquake> quake3{ new Earthquake(9) };
+    std::unique_ptr<Earthquake> quake4{ new Earthquake(6.7) };
 
-    Earthquake* quakeEnergy = new Earthquake(9.3);
+    std::unique_ptr<Earthquake> quakeEnergy{ new Earthquake(9.3) };
+
 
     rsc::CalculateIntensityDifference(quake1, quake2);
     rsc::CalculateIntensityDifference(quake3, quake4);
