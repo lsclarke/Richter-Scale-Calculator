@@ -46,13 +46,13 @@ namespace rsc {
 int main()
 {
     //Smart Pointers 
-    std::unique_ptr<Earthquake> quake1 { new Earthquake(9.3) };
-    std::unique_ptr<Earthquake> quake2{ new Earthquake(8.7) };
+    std::unique_ptr<Earthquake> quake1 { std::make_unique<Earthquake>(9.3) };
+    std::unique_ptr<Earthquake> quake2{ std::make_unique<Earthquake>(8.7) };
 
-    std::unique_ptr<Earthquake> quake3{ new Earthquake(9) };
-    std::unique_ptr<Earthquake> quake4{ new Earthquake(6.7) };
+    std::unique_ptr<Earthquake> quake3{ std::make_unique<Earthquake>(9) };
+    std::unique_ptr<Earthquake> quake4{ std::make_unique<Earthquake>(6.7) };
 
-    std::unique_ptr<Earthquake> quakeEnergy{ new Earthquake(9.3) };
+    std::unique_ptr<Earthquake> quakeEnergy{ std::make_unique<Earthquake>(9.3) };
 
 
     rsc::CalculateIntensityDifference(quake1, quake2);
