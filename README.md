@@ -7,6 +7,7 @@ I created this project to learn and have a better understanding of earthquakes. 
 _Study Resources_
 -----------------------------------------------------------------------------------------------------------------
 _USGS.GOV_:
+
 [https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity](https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity)
 
 _Calculate Richter Scale_:
