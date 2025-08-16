@@ -1,0 +1,46 @@
+﻿Suggestions from Emma 
+1. Project structure and file separation
+When creating a C++ project, always separate the main.cpp file (where the program execution starts) from the rest of the implementation.
+Use .h (header) and .cpp (source) files to clearly separate declarations from definitions. This makes the code cleaner, easier to maintain, and it’s the standard practice in C++.
+example
+main.cpp → only contains the entry point (main) and high-level logic.
+Earthquake.h → contains the class declaration.
+Earthquake.cpp → contains the class method definitions.
+RichterScale.cpp → contains the calculation functions.
+Everyone in the C++ community uses this format, and it’s highly recommended.
+https://www.youtube.com/watch?v=ru_u9N7jydU 
+
+2. Organizing classes into separate files
+For your class Earthquake, it’s best practice to put it in its own file (Earthquake.h / Earthquake.cpp).
+This way, you can include the class wherever you need it, without bloating your main.cpp.
+It also makes the project more modular and easier to expand in the future.
+C++ Tutorial – Classes in Separate Files
+
+Here’s a video that explains this well:
+1. Unused raw pointer (Earthquake* quake;)
+This member is never used and it’s a raw pointer, which is not modern C++.
+Fix: Remove it entirely.
+
+2. Public data members
+All your attributes (magnitude, intensity, energy) are public, which breaks encapsulation.
+Best practice: Make them private and provide getters/setters.
+
+3. Unnecessary use of std::unique_ptr
+You wrap Earthquake objects inside std::unique_ptr, but your class does not manage any dynamic resource.
+Better option: Simply use stack-allocated objects (Earthquake quake{9.3};).
+Smart pointers are useful mainly when you need polymorphism or manual lifetime management.
+https://www.youtube.com/watch?v=PCnDoknVFK4 
+
+4. Functions taking std::unique_ptr&
+Both CalculateEnergy and CalculateIntensityDifference accept std::unique_ptr<Earthquake>&.
+If you don’t need ownership transfer, prefer passing a reference (Earthquake&).
+This makes the code cleaner and avoids unnecessary indirection.
+
+5. Mixing computation and output
+In CalculateIntensityDifference, you both compute the difference and print it.
+According to the single responsibility principle, it’s better to separate calculation from I/O.
+Fix: Return the computed value and print it outside the function.
+
+6. Const-correctness
+None of your functions are marked as const, even when they don’t modify the object.
+Adding const improves clarity and ensures objects can be used in read-only contexts.
